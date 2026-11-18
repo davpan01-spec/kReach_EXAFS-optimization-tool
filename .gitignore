@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+.env
+.env.*
+!.env.example
+
+.vscode/
+.ipynb_checkpoints/
+
+# structure files: only the public example structures are shipped
+*.cif
+!examples/*.cif
+
+# FEFF output, written next to each CIF
+*_feff/
+
+EXAFS_MC_FIT.ipynb
+SampleCalculator.py
